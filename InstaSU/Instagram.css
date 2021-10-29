@@ -1,0 +1,131 @@
+
+body{
+    margin: 0;
+}
+.main-header{
+    display: flex;
+justify-content: space-between;
+border-bottom: 1px solid gray;
+box-sizing: border-box;
+padding: 8px 20%;
+align-items: center;
+
+
+}
+
+.logo{
+    height: 42px;
+
+}
+.searchfield{
+    height: 22px;
+    width: 25%;
+    background: #FAFAFA;
+    border:1px solid #b9b9b9;
+   border-radius:2px;
+   text-align: center;
+
+}
+.nav-menu img{
+    height: 28px;
+
+}
+.nav-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+   
+   
+}
+
+.nav-menu ul li{
+    margin-left: 12px;
+}
+
+#myProfilPicture{
+    border:1px solid black;
+    border-radius: 50%;
+}
+
+.profilPictureSU{
+    
+border-radius: 50%;
+    
+}
+.main-page{
+    align-items: center;
+    margin: 50px 350px;
+
+
+}
+
+.headerSU{
+    display: flex;
+    margin: 20px 60px;
+}
+.posts-icons{
+    display: flex;
+   margin: 14px 40%;
+}
+
+.posts-icons img {
+  height: 14px;
+}
+
+
+#name-part{
+   
+    padding:8px 60px ;
+
+}
+.instagram-name{
+    flex-direction: row;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 24px;
+   justify-items: self-start;
+}
+#btnFollow{
+    padding:8px 20px ;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+
+}
+#btnOptions{
+    padding: 8px 12px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+#otherOptions{
+    background-color: white;
+    color: black;
+    border: none;
+    margin: auto;
+    font-size: 18px;
+
+}
+
+   
+
+.SU-posts-row1{
+    display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+align-items: center;
+
+    margin-bottom: 22px;
+
+}
+.SU-posts-row2{
+    display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+align-items: center;
+
+    
+
+}
