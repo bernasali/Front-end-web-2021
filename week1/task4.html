@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+
+    <style>
+        body {
+            background-color: #F1F2F5;
+        }
+        
+        .wrapper {
+            width: 400px;
+            background-color: white;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 10px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            box-sizing: border-box;
+        }
+        
+        .poster {
+            width: 100%;
+        }
+        
+        .comment {
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            box-sizing: border-box;
+            margin: 4px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Harry Potter and the Deathly Hallows</h1>
+        </header>
+        <article>
+            <strong>J.K. Rowling:</strong>
+            <p> Can you rate this movie? Do you like it?</p>
+
+            <img src=HarryPotter.png alt="movie-poster" class="poster" />
+        </article>
+        <section>
+            <h2> Comments</h2>
+            <div class="comment">
+                <b>Harry Potter</b> 5/5
+            </div>
+            <div class="comment">
+                <b> Hermione Granger</b> 4/5
+            </div>
+            <div class="comment">
+                <b>Ron Weasley</b>4/5
+
+                <p> Best one!</p>
+            </div>
+        </section>
+        <aside>
+            <h2>Write comment</h2>
+            <hr>
+            <form>
+                <label for="comment">Write your comment:</label>
+                <textarea id="comment"> </textarea> 0
+                <input type="range" min="0" max="5" value="3" />5
+
+                <button>Send comment</button>
+            </form>
+        </aside>
+    </div>
+</body>
+
+</html>
