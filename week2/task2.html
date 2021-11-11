@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 1500px;
+            background-color: #fffbe2;
+        }
+        
+        #red,
+        #green,
+        #blue,
+        #silver {
+            width: 350px;
+            height: 200px;
+            border: 2px solid #000000;
+            z-index: 2;
+        }
+        
+        #yellow {
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        
+        #red {
+            background: red;
+            margin-top: 300px;
+            margin-left: 400px;
+            position: relative;
+        }
+        
+        #green {
+            background: green;
+            position: fixed;
+            top: 100px;
+            right: 0px;
+        }
+        
+        #blue {
+            background: blue;
+            position: relative;
+        }
+        
+        #silver {
+            background-color: silver;
+            top: 350px;
+            left: 450px;
+            position: absolute;
+        }
+        
+        #yellow {
+            background: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="red"></div>
+
+    <div id="silver"></div>
+
+    <div id="green"></div>
+
+    <div id="blue">
+        <div id="yellow"></div>
+    </div>
+</body>
+
+</html>
